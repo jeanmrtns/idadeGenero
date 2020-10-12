@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gênero e Idade</title>
+</head>
+<body>
+    <header>
+        <h1>Verificação de Gênero e Idade</h1>
+    </header>
+
+    <section>
+        <label>Ano de Nascimento:</label>
+        <input type="number" id="ano">
+        <div id="genero">
+            <label>Sexo:</label>
+            <input type="radio" name="radsex" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+        </div>
+        <input type="button" value="Verificar" onclick="verificar()">
+
+        <div id="resultado"></div>
+    </section>
+
+    <footer>
+        <p>&copy;Jean Martins</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

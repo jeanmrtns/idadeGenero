@@ -1,0 +1,31 @@
+body {
+    margin: 80px;
+    text-align: center;
+    background: rgb(108, 168, 236);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+}
+
+section {
+    font-size: 0.8em;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+}
+
+#genero, #foto {
+    margin: 20px;
+}
+
+
+footer {
+    color: white;
+    font-style: italic;
+    font-size: 0.9em;
+}
